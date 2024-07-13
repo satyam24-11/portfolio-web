@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/letter-s.png">
+	<title>Satyam</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2a2db20aec.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				<a href="index.html" class="logo">
+					<span class="fas fa-code"></span>
+					<span class="logo">Satyam</span>
+				</a>
+				<ul id="sidemenu">
+					<li><a href="#about">About</a></li>
+					<!-- <li><a href="#services">Experience</a></li> -->
+					<li><a href="#project">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="https://www.linkedin.com/in/satyam-kumar-/" target="_blank"><i
+								class="fa-brands fa-linkedin"></i></a></li>
+					<li><a href="https://github.com/satyam24-11" target="_blank"><i
+								class="fa-brands fa-square-github"></i></a></li>
+					<li><a href="https://drive.google.com/file/d/1691RZKPBk8YNWcXp47GPNBUz5OU7vnAQ/view" target="_blank"
+							class="button">Resume</a></li>
+					<i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openMenu()"></i>
+			</nav>
+			<div id="header-text">
+				<p class="name">Hi, my name is <span>Satyam Kumar</span></p>
+				<h2 class="headline">I'm good at solving problems</h2>
+			</div>
+		</div>
+	</div>
+
+	<!--  ------------------about------------- -->
+
+	<div id="about">
+		<div class="container2">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="images/aboutt.gif" style="background-color: rgb(146, 197, 255);">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<!-- <p>I am third year undergrad student </p> -->
+
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Achivements</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+					</div>
+					<!-- skills -->
+					<div class="tab-contents active-tab" id="skills">
+						<div class="divv">
+							<div class="containers">
+								<div class="box">
+									<div class="imgBx">
+										<img src="images/htmlLogo.png" style="padding: 5px;">
+									</div>
+									<div class="content">
+										<div>
+											<h2>HTML<br><span style="font-size: 10px;">(Markup Language)</span></h2>
+
+										</div>
+									</div>
+								</div>
+								<div class="box">
+									<div class="imgBx">
+										<img src="images/cssLogo.png">
+									</div>
+									<div class="content">
+										<div>
+											<h2>CSS<br><span style="font-size: 10px;">(For Styling Website)</span></h2>
+										</div>
+									</div>
+								</div>
+								<div class="box">
+									<div class="imgBx">
+										<img src="images/javascriptLogo.png">
+									</div>
+									<div class="content">
+										<div>
+											<h2>Javasript<br><span style="font-size: 10px;">(Programming
+													Language)</span></h2>
+										</div>
+									</div>
+								</div>
+								<div class="box">
+									<div class="imgBx">
+										<img src="images/c++Logo.png" style="padding: 5px;">
+									</div>
+									<div class="content">
+										<div>
+											<h2>C++<br><span style="font-size: 10px;">(Programming Language)</span></h2>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="containers">
+								<div class="box">
+									<div class="imgBx">
+										<img src="images/nodejsLogo.png" style="padding: 5px;">
+									</div>
+									<div class="content">
+										<div>
+											<h2>Node Js<br><span style="font-size: 10px;">( Javasript Framework)</span>
+											</h2>
+										</div>
+									</div>
+								</div>
+								<div class="box">
+									<div class="imgBx">
+										<img src="images/gitLogo.png">
+									</div>
+									<div class="content">
+										<div>
+											<h2>Git<br><span style="font-size: 10px;">(Version Control System)</span>
+											</h2>
+										</div>
+									</div>
+								</div>
+								<div class="box">
+									<div class="imgBx">
+										<img src="images/mySqlLogo.png" style="width:117px">
+									</div>
+									<div class="content">
+										<div>
+											<h2>My SQL<br><span style="font-size: 10px;">( Database)</span></h2>
+										</div>
+									</div>
+								</div>
+								<div class="box">
+									<div class="imgBx">
+										<img src="images/pythonLogo.png" style="padding:2px; margin:2px;">
+									</div>
+									<div class="content">
+										<div>
+											<h2>Python<br><span style="font-size: 10px;">(Programming Language)</span>
+											</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- experience  -->
+					<div class="tab-contents" id="experience">
+						<div class="divv">
+							<ul class="exp">
+								<li>• &nbsp; <span style="color:green; font-size: 1rem;"> Pupil</span> at <a
+										href="https://codeforces.com/profile/dexter_24" target="_blank">Codeforces</a>
+								</li>
+								<li>• &nbsp; Participated in College Coding Competition and Secured 5th rank
+								</li>
+								<li>• &nbsp; Secured All India rank of 461, 444 respectively in Codechef’s Starter 78
+									and
+									Starter 94 in Division 3, among 8000+ participants.
+								</li>
+								<li>• &nbsp; Secured All India Rank 309 in Leetcode Weekly Contest 386, among 23000+
+									participants.</li>
+								<!-- <li>• &nbsp; Semi Finalist at Techgig Code Gladiator 2022 with a global rank of 188 out of</li>
+							<li>  &nbsp;&nbsp;  6000+ people.</li> -->
+								<li>• &nbsp; Solved <a href="#about">500+</a> Algorithm Based Problems across various
+									coding platforms like (Codeforces, CodeChef, Atcoder,
+									Leetcode, CSES.)</li>
+							</ul>
+							</li>
+						</div>
+					</div>
+					<!--education  -->
+					<div class="tab-contents" id="education">
+						<div class="divv">
+							<ul class="edu">
+								<li><span>2021 - 2025</span><br><br>
+									<h2>GL Bajaj Institute of Technology and Management</h2>
+									<p>Btech : Computer Science</p>
+									<p>CGPA: 7.87</p>
+								</li>
+								<li><span>2019 - 2020</span><br><br>
+									<h2>Little Flower House, Kakarmatta, Varanasi</h2>
+									<p>12th Board CBSE</p>
+									<p>Percentage: 87.60%</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- ---------------------Project----------------------------------------- -->
+
+	<div id="project">
+		<div class="container2">
+			<h1 class="sub-title">Projects</h1>
+			<div class="work-list">
+				<div class="works">
+					<img src="images/campus-buddy.png">
+					<div class="layer">
+						<h3>Campus Buddy</h3>
+						<p>Welcome to the Campus Buddy repository! Campus Buddy isn't just an app; it's a transformative
+							platform designed to
+							revolutionize how individuals within a campus community engage with their environment.</p>
+						<a href="https://github.com/satyam24-11/campus-buddy"><i
+								class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="works">
+					<img src="images/movie-recommender.png">
+					<div class="layer">
+						<h3>Movie Recommender</h3>
+						<p>Allows searching of 10000+ movies and webseries and provides information along with
+							high-quality trailer.</p>
+						<a href="https://github.com/satyam24-11/movie-recommender"><i
+								class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="works project-img">
+					<img src="images/url-shortener.png">
+					<div class="layer">
+						<h3>URL Shortener</h3>
+						<p>Developed a scalable and efficient URL shortener web application
+							using Node.js, Express.js, and MongoDB, with a focus on reliable URL
+							management, robust error handling, and secure validation through RESTful
+							API endpoints..</p>
+						<a href="https://github.com/satyam24-11/URL-Shortener"><i
+								class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+			</div>
+			<a href="#project" class="btn">More</a>
+		</div>
+	</div>
+
+	<!-- ---------------------Contact -------------------->
+	<div id="contact">
+		<div class="container2">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title" style="font-size: 50px;"> Contact Me</h1>
+					<ul id="cnt">
+						<br>
+					</ul>
+					<p>I'm always interested in hearing about learning opportunities. You can contact me at the email
+						below.</p>
+					<p><i class="fa-solid fa-envelope"></i>sk442305225@gmail.com</p>
+					<p><i class="fa-brands fa-square-github"></i>satyam24-11</p>
+					<p><i class="fa-solid fa-square-phone"></i>+91 8318576729</p>
+				</div>
+
+				<div class="contact-right">
+					<div>
+						<img class="contact-img" src="images/contact.gif" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyright">
+			© Satyam. All rights reserved.
+		</div>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+
+</html>
