@@ -1,8 +1,6 @@
 # Personal Portfolio
 
-
-<img width="947" alt="header" src="(https://github.com/user-attachments/assets/f182a730-0cf2-40c3-8369-3d955b30cac6)
-">
+![image](https://github.com/user-attachments/assets/7793c753-7cc3-40a8-9d43-f3b708f59c16)
 
 
 ## Introduction
