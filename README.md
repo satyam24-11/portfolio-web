@@ -1,11 +1,12 @@
 # Personal Portfolio
 
 
-<img width="947" alt="header" src="https://user-images.githubusercontent.com/93874215/216962502-8d5c891e-7897-435f-b137-1eb1f35c6c8a.PNG">
+<img width="947" alt="header" src="![image](https://github.com/user-attachments/assets/f182a730-0cf2-40c3-8369-3d955b30cac6)
+">
 
 
 ## Introduction
-This is a personal portfolio website created to showcase my skills and achievements as a developer. The purpose of the project is to provide a platform for potential employers or clients to view my work and get to know me better.
+This is a personal portfolio website created to showcase my skills and achievements as a developer. The project aims to provide a platform for potential employers or clients to view my work and get to know me better.
 
 
 * Responsive design that adapts to different screen sizes
@@ -19,6 +20,6 @@ This is a personal portfolio website created to showcase my skills and achieveme
 * JavaScript
  
 
-## Future plans
+## plans
 In the future, I plan to add more projects to my portfolio and keep updating my skills and knowledge. I also plan to continuously improve the design and functionality of the website to provide an even better user experience.
 
